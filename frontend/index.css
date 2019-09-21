@@ -1,0 +1,69 @@
+#header {
+  color: white;
+  height: 100px;
+  width: 90%;
+  text-align: center;
+}
+
+#result {
+  text-align: left;
+}
+
+h1, h2, h3, p {
+  font-family: "Verdana";
+  color: white;
+}
+
+body {
+  background-color: #184070;
+}
+
+.indent {
+  padding-left: 5%;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 20px 0 20px;
+}
+
+.text_input {
+  width: 500px;
+  margin: right;
+  display: block;
+}
+
+input {
+  height: 50px;
+}
+
+#url_input {
+  height: 200px;
+}
+
+#button_div {
+  width: 90%;
+  position: right;
+}
+
+.detect_button {
+  width: 500px;
+  height:60px;
+  display: block;
+}
+
+
+table {
+  width: 100%;
+}
+td {
+  vertical-align: top;
+}
+.left {
+  text-align: left;
+  padding-left: 100px;
+}
+.right {
+  text-align:right;
+  padding-right: 100px;
+}
