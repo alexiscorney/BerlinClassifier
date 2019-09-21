@@ -1,15 +1,15 @@
 ENDPOINT = "http://localhost:5000";
 
 address = function() {
-  lat = document.getElementById('address').value;
+  input = document.getElementById('address').value;
   console.log('testing')
   var xhttp = new XMLHttpRequest();
   xhttp.addEventListener("readystatechange", function () {
     if (this.readyState === 4) {
-      document.getElementById("coord_result").innerHTML = "RESULT: "+this.responseText;
+      document.getElementById("coord_result").innerHTML = "This place is "+this.responseText;
     }
   });
-  xhttp.open("GET", ENDPOINT + "/?input=" + lat + ', ' + lng, true);
+  xhttp.open("GET", ENDPOINT + "/?input=" + input, true);
   xhttp.send();
 };
 
